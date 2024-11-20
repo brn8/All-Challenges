@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+.App button {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.App span {
+  font-size: 30px;
+  font-family: cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.App .incrementDecrement button {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.App .undoRedo button {
+  margin-left: 45px;
+  margin-right: 20px;
+}
+
+.history {
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+.memoryApp {
+  font-family: cursive;
+  text-align: center;
+}
+
+.board button {
+  font-size: 30px;
+  font-family: cursive;
+  width: 70px;
+  height: 100px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.board div {
+  display: flex;
+  justify-content: center;
+}
+.board img {
+  margin-left: -9px;
+  margin-top: -3px;
+}
+
+.clockApp {
+  font-family: cursive;
+  text-align: center;
+}
+
+.clockApp span {
+  font-family: cursive;
+  font-size: 100px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  width: 185px;
+}
+
+.clock {
+  background-color: gray;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+.countdown input {
+  width: 50px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: cursive;
+  font-size: 22px;
+}
+.countdown button {
+  width: 80px;
+  height: 60px;
+  font-family: cursive;
+  font-size: 22px;
+}
+
+.countdownfields {
+  text-align: center;
+}
